@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Market from "./components/Market";
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Market />
+      <Footer />
     </>
   );
 }
