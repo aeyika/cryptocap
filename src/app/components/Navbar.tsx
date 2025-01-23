@@ -7,12 +7,13 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between px-6 py-4">
       <div className="flex items-center gap-1">
-        <Image
+        <a href="#"><Image
         src="/CryptoCap.png"
         alt="cryptocap logo"
         width={205}
         height={30}
         />
+        </a>
       </div>
 
       <div className="hidden md:flex items-center gap-8">

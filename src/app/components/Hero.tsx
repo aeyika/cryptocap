@@ -4,7 +4,7 @@ import { raleway, roboto } from "../fonts";
 import MarketTrend from "./MarketTrend";
 const Hero = () => {
   return (
-    <div className="bg-[#130123] bg-[url('/bg-above-the-fold.png')] bg-cover bg-center bg-blend-soft-light">
+    <div className="bg-[#130123] bg-[url('/bg-above-the-fold.png')] bg-cover bg-center">
         <Navbar />
         <div className="text-center">
             <h1 className={`text-4xl pt-[178px] text-white ${raleway.className} antialiased font-bold`}>Start and Build Your Crypto Portfolio Here</h1>

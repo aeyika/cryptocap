@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 const Features = () => {
   return (
-    <div className="bg-[#130123] bg-[url('/bg-features.png')] bg-cover bg-center pt-[60px] pb-">
+    <div className="bg-[#130123] bg-[url('/bg-features.png')] bg-cover bg-center pt-[60px] pb-[60px]">
         <h1 className={`text-[#ECF1F0] text-center text-3xl ${raleway.className} antialiased font-bold`}>CryptoCap&apos;s Amazing Featues</h1>
             <p className={`text-[#B6B6B6] text-center pt-[30px] pb-[30px] ${roboto.className} antialiased`}>Explore sensational features to prepare your best investment in cryptocurrency</p>
             <FeatureCard />
